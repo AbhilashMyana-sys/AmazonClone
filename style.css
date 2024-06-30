@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body{
+    background-color: #e2e7e6;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    /* padding-top: 10px;
+    padding-left: 5px;
+    */
+    display: flex;
+    align-items: center;
+}
+
+/* logo */
+.nav-logo{
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+}
+.logo{
+    
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100%;
+}
+.selectionitems{
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.selectionitems:hover{
+    border: 1.5px double white;
+    border-radius: 5%;
+}
+
+/* LcationBox */
+.nav-add{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.add1{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 15px;
+    padding-left: 3px;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.address{
+    display: flex;
+    align-items: center;    
+}
+#locationicon{
+    font-size: 14px;
+}
+
+/* SearchBox */
+.nav-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+    background-color: white;
+    width: 1050px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: default;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.nav-search :hover{
+    border: 2px solid #febd68;
+}
+
+.search-search{
+    width: 100%;
+    height: 38px;
+    border: none;
+    font-size: 1rem;
+}
+.search-scan{
+    color: #0f1111;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    right: 46px;
+    cursor: pointer;
+}
+.search-icon{
+    background-color: #febd68;
+    color: #202424;
+    height: 40px;
+    width: 45px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+#scanicon{
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    padding-right: 20px;
+}
+ion-icon{
+    font-size: 25px;
+}
+
+
+
+/* LangBox */
+.lang-select{
+    color: #f3f3f3;
+    background-color: #0f1111;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* signinBox */
+.nav-signin{
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.signin1{
+    font-size: 0.8rem;
+    padding-left: 3px ;
+}
+.signin2{
+    color: #f3f3f3;
+    background-color: #0f1111;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* returnsBox */
+.nav-returns{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* cartBox */
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+select{
+    cursor: pointer;
+}
+
+
+
+
+/* panel */
+
+.panel{
+    background-color: #232f3e;
+    color: #f3f3f3;
+    padding-left: 11px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 5px 0px 5px;
+}
+.panel-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    padding-right: 5px;
+}
+.item1{
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    align-items: center;
+}
+.option1{
+    color: #f3f3f3;
+    background-color: #232f3e;
+    border: none;
+    font-size: 1rem;
+}
+.item2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 35px;
+
+}
+
+/* herosection */
+
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 600px;
+    width: 1500px;
+    margin: 0px 100px 0px 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-msg{
+    background-color: white;
+    color: #0f1111;
+    width: 80%;
+    height: 40px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+.hero-msg a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/* shopsection */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin: 0px 100px 0px 100px;
+    position: relative;
+    top: -200px;
+}
+.box{
+    align-items: center;
+    height: 420px;
+    width: 320px;
+    background-color: #f3f3f3;
+    padding: 20px 0px 15px;
+    position: relative;
+    top: 20px;
+    /* margin-bottom: 10px; */
+}
+.box-img{
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box-content p{
+    color: #007185;
+    font-size: 0.85rem;
+}
+/* footer-panel1 */
+.footerpanel1{
+    background-color: #37475A;
+    color: #e2e7e6;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+.footerpanel1 a{
+    font-size: 0.9rem;
+    color: #f3f3f3;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.footerpanel2{
+    background-color: #232F3E;
+    color: #fff;
+    height: 300px;
+    border-bottom: 1px solid #e2e7e6;
+}
+.footpanel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+
+.heading1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.list1{
+    list-style: none;
+    font-size: 0.8rem;
+    padding: 0px;
+}
+.footerpanel3{
+    background-color:#232F3E ;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot3span1{
+    margin-right: 150px;
+    cursor: pointer;
+}
+.foot3span2{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot3div{
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 4px;
+}
